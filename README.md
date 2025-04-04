@@ -3,9 +3,11 @@ This is an electron template for building applications.
 
 # FAQs
 **Q: How to start the application?**
+
 **A: 1. Open a terminal, 2. write "npm start"**
 
 **Q: How to change the default resolution of the application?**
+
 **A: Go to "index.js" and modify "width:" and "height:"**
 
 # Notes
