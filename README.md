@@ -1,6 +1,13 @@
 # Electron-App-Template
 This is an electron template for building applications.
 
+What to after you've download/cloned the file?
+1. Open the terminal
+2. Write: **npm install electron@^35.1.4**
+3. Write: **npm install electron-builder@^25.1.8**
+4. Write: npm start
+5. Enjoy
+
 # FAQs
 **Q: How to start the application?**
 
