@@ -1,0 +1,31 @@
+{
+  "name": "electron-app-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^35.1.4",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "windows": {
+    "target": "nsis",
+    "icon": "build/icon.ico"
+  },
+  "dependencies": {
+    "makensis": "^2.0.8"
+  }
+}
