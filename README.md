@@ -18,6 +18,7 @@ This is an electron template for building applications.
 **A: Go to "index.js" and modify "width:" and "height:"**
 
 **Q: How to create .exe file?**
+
 **A: Write "npm run build" and then go to the "dist" folder and you'll see your application.exe file**
 
 # Notes
