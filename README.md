@@ -11,7 +11,7 @@ This is an electron template for building applications.
 **A: Go to "index.js" and modify "width:" and "height:"**
 
 # Notes
-If you want change the behavior of the template, check package.json and index.js.
+If you want to change the behavior of the template, check package.json and index.js.
 
 # Feedback
 If you have any suggestions, please don't hesitate in reaching me out!
