@@ -4,9 +4,9 @@ This is an electron template for building applications.
 **What to do after you've download/cloned the file?**
 1. Open the project in VSCode
 2. Open the terminal
-2. Write: **npm install electron@^35.1.4**
-3. Write: **npm install electron-builder@^25.1.8**
-4. Write: **npm start**
+2. In the terminal write: **npm install electron@^35.1.4**
+3. In the terminal write: **npm install electron-builder@^25.1.8**
+4. In the terminal write: **npm start**
 5. Enjoy
 
 # FAQs
