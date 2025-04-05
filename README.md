@@ -20,10 +20,10 @@ This is an electron template for building applications.
 
 **Q: How to create .exe file?**
 
-**A: Write "npm run build" and then go to the "dist" folder and you'll see your application.exe file**
+**A: Write "npm install makensis" in terminal. Then write "npm run build" and then go to the "dist" folder and you'll see your application.exe file**
 
 # Notes
 If you want to change the behavior of the template, check package.json and index.js.
 
 # Feedback
-If you have any suggestions, please don't hesitate in reaching me out!
+If you have any suggestions, please don't hesitate to reach me out!
