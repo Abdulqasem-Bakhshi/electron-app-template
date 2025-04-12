@@ -4,20 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
-  <link rel="stylesheet" href="/electron-app-template/index.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1># Electron-App-Template</h1>
-  <p>This is an electron template for buildin applications.</p>
-  <h2># FAQs</h2>
-  <p>Q: How to start the application?</p>
-  <p>A: 1. Open a terminal, 2. write "npm start"</p>
-  <p>Q: How to change the default resolution of the application?</p>
-  <p>A: Go to "index.js" and modify "width:" and "height:"</p>
-  <h2># Notes</h2>
-  <p>If you want to change the behavior of the template, check package.json and index.js.</p>
-  <h2># Feedback</h2>
-  <p>If you have any suggestions, please don't hesitate in reaching me out!</p>
-  <script src="/electron-app-template/index.js"></script>
+  <main id="main">
+
+    <div>
+      <div class="header">
+        <button id="minimize" class="headerbutton">_</button>
+        <button id="maximize" class="headerbutton">[]</button>
+        <button id="close" class="headerbutton">X</button>
+      </div>
+      <h1># Electron-App-Template</h1>
+      <p>This is an electron template for buildin applications.</p>
+      <h2># FAQs</h2>
+      <p>Q: How to start the application?</p>
+      <p>A: 1. Open a terminal, 2. write "npm start"</p>
+      <p>Q: How to change the default resolution of the application?</p>
+      <p>A: Go to "index.js" and modify "width:" and "height:"</p>
+      <h2># Notes</h2>
+      <p>If you want to change the behavior of the template, check package.json and index.js.</p>
+      <h2># Feedback</h2>
+      <p>If you have any suggestions, please don't hesitate in reaching me out!</p>
+    </div>
+  </main>
+    <script src="index.js"></script>
+    <script src="renderer.js"></script>
 </body>
 </html>

@@ -3,3 +3,28 @@
   margin: 0;
   padding: 0;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+  -webkit-app-region: drag;
+}
+
+.headerbutton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  user-select: none;
+  -webkit-app-region: no-drag;
+}
+
+.headerbutton:hover {
+  background-color: lightgray;
+}
